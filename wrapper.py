@@ -1,4 +1,7 @@
 import sys
+from PIL import Image
+interp = Image.LINEAR
+
 print("Running {}".format(sys.argv[0]))
 
 test_pre = sys.argv[1]
